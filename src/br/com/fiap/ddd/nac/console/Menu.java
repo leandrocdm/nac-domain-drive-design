@@ -13,23 +13,21 @@ public class Menu {
 	
 	
 	/**
-	 *Este método retorna o menu de opções de escolha
+	 *Este mï¿½todo retorna o menu de opï¿½ï¿½es de escolha
 	 */
 	public int mostrarMenu(){
-		System.out.println("********* MENU *********");
 		System.out.println("**** 1 - INCLUIR  ******");
 		System.out.println("**** 2 - EXCLUIR  ******");
 		System.out.println("**** 3 - ALTERAR  ******");
 		System.out.println("**** 4 - LISTAR   ******");
 		System.out.println("**** 5 - EXPORTAR ******");
 		System.out.println("**** 6 - SAIR     ******");
-		System.out.println("************************");
 		return input.nextInt();
 
 	}
 
 	/**
-	 *Este método retorna as ações para as opções do menu
+	 *Este mï¿½todo retorna as aï¿½ï¿½es para as opï¿½ï¿½es do menu
 	 *@param retorno
 	 *@throws Exception
 	 */
@@ -61,13 +59,13 @@ public class Menu {
 			System.exit(0);
 			break;
 		default:
-			System.out.println("Opção invalida!");
+			System.out.println("Opï¿½ï¿½o invalida!");
 			opcaoEscolhida(mostrarMenu());
 		}
 	}
 
 	/**
-	 *Este método solicita ao usuário as informações para inclusão de um novo veículo
+	 *Este mï¿½todo solicita ao usuï¿½rio as informaï¿½ï¿½es para inclusï¿½o de um novo veï¿½culo
 	 *@throws Exception
 	 */
 	public void incluirVeiculo() throws Exception{
@@ -88,7 +86,7 @@ public class Menu {
 	}
 	
 	/**
-	 *Este método solicita ao usuário as informações para exclução de um veículo existente
+	 *Este mï¿½todo solicita ao usuï¿½rio as informaï¿½ï¿½es para excluï¿½ï¿½o de um veï¿½culo existente
 	 *@throws Exception
 	 */
 	public void excluirVeiculo() throws Exception{
@@ -101,7 +99,7 @@ public class Menu {
 	}
 	
 	/**
-	 *Este método solicita ao usuário as informações para alteração de um veículo existente
+	 *Este mï¿½todo solicita ao usuï¿½rio as informaï¿½ï¿½es para alteraï¿½ï¿½o de um veï¿½culo existente
 	 *@throws Exception
 	 */
 	public void alterarVeiculo() throws Exception{
